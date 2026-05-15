@@ -82,11 +82,7 @@ Explains the rules, what you need to buy, and what winners get
 ---
 
 ## Related Links
-- [Figma Design (2026 Loyalty)](link)
-- [URD Document](link)
-- [Test Case (UAT)](link)
-- [SKU Reference](link)
-- [Jira Ticket: TAD-2313](link)
+- [Jira Ticket: TAD-2357](https://dbo-id.atlassian.net/browse/TAD-2357?search_id=b2595e62-801a-4125-902a-7e9f0552ca76)
 
 ---
 
