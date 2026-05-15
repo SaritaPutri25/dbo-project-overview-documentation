@@ -9,6 +9,7 @@ docs/
 ├── projects/
 │   ├── BINTANG_RUCIKA_2026.md
 │   ├── CMS_LOYALTY_ENHANCEMENT.md
+│   ├── CAP_RUMAH_2026.md
 │   └── [Other projects will be added here]
 ```
 
@@ -17,6 +18,7 @@ docs/
 ### Active Projects
 - **[Bintang Rucika 2026](docs/projects/BINTANG_RUCIKA_2026.md)** - Toko App loyalty program update for 2026
 - **[CMS Program Loyalty Enhancement](docs/projects/CMS_LOYALTY_ENHANCEMENT.md)** - Multi-program CMS system for Bintang Rucika 2026 & Cap Rumah 2026
+- **[Cap Rumah 2026](docs/projects/CAP_RUMAH_2026.md)** - Exclusive loyalty program for high-performing retail stores in Java & Lampung
 
 ## 🎯 How to Use This Repo
 
