@@ -2,138 +2,145 @@
 
 ## Project Metadata
 - **Project Name:** Cap Rumah 2026
-- **Product:** Toko App (Mobile)
-- **Project Manager:** Sari (Kodefox)
-- **Product Analyst:** Renita Salshabila (DBO)
-- **Business Analyst:** Jeren Novita Hutagalung (DBO)
+- **Product:** Toko App (Mobile) & CMS Web App
+- **Program Description:** Exclusive loyalty program for high-performing retail stores
 - **Start Date:** March 9, 2026
 - **Status:** In Development
-- **Expected Release:** End of May 2026
+- **Force Update:** Yes
+- **Release Method:** App Store & Google Play (Mobile), Web Deploy (CMS)
 - **Last Updated:** May 15, 2026
 
 ---
 
 ## Project Goal
-Cap Rumah is an exclusive loyalty program designed to manage and maintain store loyalty more effectively. The program aims to drive sustainable growth by increasing transaction consistency and retail engagement through a structured, data-driven approach.
+Implement CAP RUMAH as an integrated engagement program to manage and maintain retail store loyalty in a more structured and data-driven manner. The program aims to encourage consistent ordering from retail stores while providing monitoring tools for business performance.
 
 ---
 
 ## The Problem We're Solving
-- Retail competition is intensifying due to direct and indirect competitor penetration
-- Current system lacks a structured approach to manage retail relationships and performance
-- Need for better monitoring and evaluation of retail performance based on data
-- Risk of loyalty shift among high-contributing stores (Pareto outlets)
+- Retail competition is intensifying with increased competitor penetration
+- Risk of loyalty shift, especially among high-sales outlets (Pareto)
+- Need for structured approach to manage relationships and performance at retail level
+- Current system lacks data-driven monitoring for retail performance and growth
 
 ---
 
 ## Who Can Join?
 
-### Eligible Stores
-- **Region:** Jawa and Lampung only (as per master list region)
-  - Stores outside this region can join only through special data injection
-- **Existing Stores:** Must meet ALL conditions:
-  - Registered since 2018 or before Cap Rumah 2026 implementation
-  - Must complete matchmaking with Djabesmen brand
-  - Matchmaking status: Accepted by at least 1 distributor
-  - Store category: Retail only (exclude: customer, project, developer, contractor)
-  - Store data type: Real
-  - Note: If a store loses distributor connection during 2026, they remain as participant with access
+### Eligible Existing Stores
+- Registered since 2018 or earlier until Cap Rumah 2026 implementation
+- Completed matchmaking with Djabesmen brand
+- Matchmaking status: Accepted by at least 1 distributor
+- Store category: Retail only (exclude: customer, project, developer, contractor)
+- Store data type: Real
+
+### Regional Coverage
+- Program applies to stores in Java and Lampung regions (per master list)
+- Stores outside these regions: registration only via data injection (special case)
 
 ### New Registered Stores
-- Cannot access floating button initially
-- Access granted after official registration and Djabesmen matchmaking completion
+- Cannot access floating button yet
+- Access granted after official registration and Djabesmen brand matchmaking
 
 ### Non-Participants
-- Stores not meeting criteria above have no access
-- Floating button automatically hides without needing refresh/logout
+- Stores not meeting criteria have no access to Cap Rumah dashboard
+- Floating button auto-hides without app refresh
 
 ---
 
 ## How to Win?
 
-### Target
-- **Purchase Goal:** 220 Ton of products during January 1 - December 31, 2026
-- **Calculation Rules:**
-  - Only orders from Toko App, Salesman App, and DTO count (Manager App excluded)
-  - Order status: Partial and Closed only
-  - Excludes Genteng and Djabeskrup items
-  - Progress bar shows maximum 220 Ton (detailed history available in Order History feature)
-
-### Winner Determination
-- No lottery system - automatic qualification upon meeting requirements
-- Data is manually verified and injected by MIS team
-- Not automatic calculation
+### Target Achievement
+- **Goal:** Buy 220 tons of products during January 1 - December 31, 2026
+- **Order Sources:** Toko App, Salesman App, DTO (Selling Out 2.0 Service)
+- **Excluded:** Manager App orders, Genteng & Djabeskrup items
+- **Order Status:** Partial and Closed only
+- **Transparency:** Progress bar shows up to 220 tons; full history available in order history
 
 ---
 
 ## What Winners Get?
-
-- Exclusive tour for 2 people
-- Tour tax deduction applied directly by organizer
-- Destination details and administrative requirements announced later by Djabesmen
+- Free exclusive tour for 2 people
+- Destinations and administrative details announced by Djabesmen
+- Tax deduction applied directly by organizer
+- Required to update ID information to claim prize
 
 ---
 
-## What Developers are Building
+## What Developers Are Building
 
 ### 1. Floating Button & Navigation
-- New floating button design on homepage
-- Directs to dedicated page: "Promo Eksklusif DBO Untung"
-- Shows navigation cards for eligible programs:
-  - Cap Rumah (top card) - active if eligible
-  - Bintang Rucika (below) - disabled if not eligible
-- Card visibility based on eligibility rules
-- Automatic hiding for non-participants
+- New design floating button on homepage
+- Directs to "Promo Eksklusif DBO Untung" (Exclusive Promo) dedicated page
+- Shows navigation cards based on store eligibility
+- Cap Rumah card appears first (if eligible)
+- Bintang Rucika card appears below (disabled if not eligible)
 
-### 2. Dashboard Header
-- Program header image
-- Participant status information
-- Clear eligibility messaging
+### 2. Program Eligibility Check
+- System automatically checks store eligibility
+- Displays only eligible program cards
+- Access rules based on store type, category, matchmaking, and regional area
 
-### 3. Achievement Progress Bar
-- Shows purchase progress towards 220 Ton target
-- Breaks down by product categories
-- Updates based on orders from Toko/Salesman App/DTO
-- Period: January 1 - December 31, 2026
+### 3. Cap Rumah Dashboard
+- Header image and program information
+- Membership status information
+- Progress tracking toward 220-ton target with visual progress bar
+- Breakdown of order information
 
-### 4. Benefits Section
-- "Apa itu Cap Rumah?" explanation
-- Benefits image display
-- General terms and conditions ("Ketentuan Umum Cap Rumah")
-- FAQ section
-- CTA button for more information
+### 4. Program Information Section
+- "What is Cap Rumah?" explanation
+- Benefits overview
+- General terms & conditions
+- Rules and administrative requirements
 
-### 5. Winner Information Section
-- **Status 1:** Winner announcement with tour details
-- **Status 2:** Non-winner notification (shown after MIS confirmation)
-- **Status 3:** Verification in progress message
-- Data shown only after MIS injection (not automatic)
+### 5. Winner Status Display
+**Winner Section** (Manual Data Injection)
+- Shows winner status when injected by MIS
+- Does not display automatically
+- Includes CTA button and additional information
 
-### 6. Document Upload (Mobile App)
-- **For Store Owner:**
-  - Auto-filled profile (store name, owner name, address)
-  - NPWP upload (jpg/png, max 25 MB)
-  - Family Card (KK) upload (PDF, max 10 MB)
+**Not Meeting Criteria Section**
+- Shows only when confirmed by product team
+- Displays after MIS verification and official notification
 
-- **For Each Participant (1 or 2):**
-  - Full name (mandatory, max 100 characters)
-  - Phone number (mandatory, max 13 digits, format 08)
-  - KTP photo (mandatory, jpg/png, max 25 MB)
-  - Passport scan (mandatory, PDF, max 10 MB)
-  - Passport photo (mandatory, jpg/png, 3 MB)
-  - Toggle to auto-fill owner details
+**Under Verification Section**
+- Shows when winner data is being verified by MIS
 
-### 7. Verification Checklist & Confirmation
-- Mandatory checklist questions (multiple choice)
-- Confirmation checkbox before submission
-- Validation messages for incomplete data
+### 6. Winner Document Upload
+- Triggered when store is marked as winner
+- Upload button appears on dashboard
+- Mobile app interface with document requirements
 
-### 8. Data Verification & Re-upload
-- All documents verified in CMS Verification Program Loyalty
-- If rejected: popup notification on homepage
-- Winners must re-upload rejected documents only
-- Re-upload does not require recompleting entire checklist
-- Status updates shown on dashboard
+### 7. Winner Document Submission (Mobile App)
+
+**Store Information (Auto-filled)**
+- Store owner name, store name, address (from login account)
+
+**Store Documents**
+- NPWP upload: JPG/PNG, max 25 MB (camera access)
+- KK upload: PDF, max 10 MB
+
+**Winner/Participant Information** (2 sections for 2 participants)
+- Toggle option: "I am store owner" (auto-fills name & phone)
+- Full participant name (mandatory, max 100 characters)
+- Phone number (mandatory, max 13 digits, format 08...)
+- KTP upload: JPG/PNG, max 25 MB (camera access)
+- Passport upload: PDF, max 10 MB
+- Photo passport: JPG/PNG, max 3 MB
+- Collapsible: "How to Upload Passport" guide
+
+**Checklist Section**
+- Participant name (auto-filled)
+- 3 mandatory questions with multiple choice answers
+- Confirmation checkbox required before submission
+
+### 8. Data Verification & Management
+- All uploaded data goes to CMS Verification Program Loyalty
+- Unverified data triggers popup on homepage for re-upload
+- Only incorrect documents need re-upload (not all)
+- Checklist must be re-completed for re-upload
+- Database storage for ongoing multi-year program support
+- Logging system for issue tracking
 
 ---
 
@@ -142,9 +149,9 @@ Cap Rumah is an exclusive loyalty program designed to manage and maintain store 
 |------|------|------|
 | Product Analyst | Renita Salshabila | DBO |
 | Business Analyst | Jeren Novita Hutagalung | DBO |
-| Project Manager | Sari | Kodefox |
-| Tech Lead | Adrian M | Kodefox |
 | UI/UX Design | Rudi Okmala | DBO |
+| Project Manager | Sari | Kodefox |
+| Tech Lead & Engineers | Adrian M | Kodefox |
 | QA | Adam | DBO |
 
 ---
@@ -155,15 +162,16 @@ Cap Rumah is an exclusive loyalty program designed to manage and maintain store 
 ---
 
 ## Notes for Future Reference
-- Participant list resets yearly (everyone starts fresh in 2027)
-- Region is strictly Jawa & Lampung; special stores excluded
-- Order sources: only Toko App, Salesman App, and DTO count
-- Items excluded: Genteng and Djabeskrup
-- Winner data is manually injected, not automatic
-- Changed requirement (May 6, 2026): Cap Rumah card appears first in floating button, Bintang Rucika card appears below and disabled
-- System checks eligibility automatically based on store type, category, matchmaking, and region
-- Verification process happens in CMS system, not in app
-- Large file upload warning popup appears for files exceeding limits
+- Participant list resets yearly (fresh start every January)
+- Store category strictly retail only; special stores excluded
+- Order sources: Toko App & Salesman App & DTO only (not Manager App)
+- Regional coverage: Java & Lampung (special cases via data injection)
+- Winner data manually injected by MIS (not automatic)
+- Program covers period January 1 - December 31, 2026
+- Store remains participant even if distributor connection lost (per rules)
+- Progress bar caps at 220 tons display (full history in order history)
+- All document uploads subject to size and format validation
+- CMS verification required before prize eligibility confirmed
 
 ---
 
