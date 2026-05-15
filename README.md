@@ -8,6 +8,7 @@ Centralized documentation for all DBO project overviews. This repository serves 
 docs/
 ├── projects/
 │   ├── BINTANG_RUCIKA_2026.md
+│   ├── CMS_LOYALTY_ENHANCEMENT.md
 │   └── [Other projects will be added here]
 ```
 
@@ -15,6 +16,7 @@ docs/
 
 ### Active Projects
 - **[Bintang Rucika 2026](docs/projects/BINTANG_RUCIKA_2026.md)** - Toko App loyalty program update for 2026
+- **[CMS Program Loyalty Enhancement](docs/projects/CMS_LOYALTY_ENHANCEMENT.md)** - Multi-program CMS system for Bintang Rucika 2026 & Cap Rumah 2026
 
 ## 🎯 How to Use This Repo
 
